@@ -1,9 +1,18 @@
 <!DOCTYPE html>
-<html lang="fr"></html>
-<html>
+<html lang="fr">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nina Carducci</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Nina Carducci est une photographe professionnelle basée à Bordeaux, en Gironde. Elle propose des services de photographie pour les particuliers et les entreprises, et répond au téléphone du lundi au vendredi de 10h à 19h."
+    />
+    <meta
+      name="keywords"
+      content="photographe, photographie, Bordeaux, Gironde, portrait, mariage, entreprise, événementiel"
+    />
+
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" defer />
     <link rel="stylesheet" href="./assets/style.css" defer />
     <link rel="preconnect" href="https://fonts.googleapis.com" defer />
@@ -12,7 +21,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
     />
-    <meta charset="UTF-8" />
     <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -24,7 +32,46 @@
     <script src="./assets/lazysizes.min.js" async></script>
     <script src="./assets/bootstrap/bootstrap.bundle.min.js" async></script>
     <!-- <script src="./assets/bootstrap/bootstrap.bundle.min.js.map" async></script> -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Nina Carducci",
+        "jobTitle": "Photographe",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bordeaux",
+          "addressRegion": "Gironde",
+          "postalCode": "33200",
+          "streetAddress": "68 avenue Alsace-Lorraine"
+        },
+        "telephone": "05 56 67 78 89",
+        "url": "nina-carducci.html",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "05 56 67 78 89",
+          "contactType": "customer service",
+          "areaServed": "FR",
+          "availableLanguage": "French",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "10:00",
+              "closes": "19:00"
+            }
+          ]
+        }
+      }
+    </script>
   </head>
+
   <body>
     <header>
       <h1 class="name">Nina Carducci</h1>
